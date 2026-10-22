@@ -1,1 +1,2 @@
-git switch -c feature/test
+print("Hello from teammate!")
+print("GitHub collaboration works!")
