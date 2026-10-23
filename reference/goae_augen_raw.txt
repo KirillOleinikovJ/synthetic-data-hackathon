@@ -1,0 +1,145 @@
+Augenheilkunde 
+
+| 1200 | Subjektive Refraktionsbestimmung mit sphärischen Gläsern | 59 | 6,73 |
+| --- | --- | --- | --- |
+| 1201 | Subjektive Refraktionsbestimmung mit sphärisch-zylindrischen Gläsern | 89 | 10,15 |
+| 1202 | Objektive Refraktionsbestimmung mittels Skiaskopie oder Anwendung eines Refraktometers | 74 | 8,44 |
+| 1203 | Messung der Maximal- oder Gebrauchsakkommodation mittels Akkommodometer oder Optometer | 60 | 6,84 |
+| 1204 | Messung der Hornhautkrümmungsradien | 45 | 5,13 |
+| 1207 | Prüfung von Mehrstärken- oder Prismenbrillen mit Bestimmung der Fern- und Nahpunkte bei subjektiver Brillenunverträglichkeit | 70 | 7,98 |
+| 1209 | Nachweis der Tränensekretionsmenge (z.B. Schirmer-Test) | 20 | 2,28 |
+| | Mit der Gebühr sind die Kosten abgegolten. | | |
+| 1210 | Erstanpassung und Auswahl der Kontaktlinse (Haftschale) für ein Auge zum Zwecke der Verordnung - einschließlich objektiver Refraktionsbestimmung, Messung der Hornhautradien und der Spaltlampenmikroskopie - | 228 | 25,99 |
+| 1211 | Erstanpassung und Auswahl der Kontaktlinsen (Haftschalen) für beide Augen zum Zwecke der Verordnung - einschließlich objektiver Refraktionsbestimmung, Messung der Hornhautradien und der Spaltlampenmikroskopie - | 300 | 34,20 |
+| 1212 | Prüfung auf Sitz und Funktion der verordneten Kontaktlinse (Haftschale) für ein Auge und gegebenenfalls Anpassung einer anderen Kontaktlinse (Haftschale) - einschließlich objektiver Refraktionsbestimmung, Messung der Hornhautradien und der Spaltlampenmikroskopie - | 132 | 15,05 |
+| 1213 | Prüfung auf Sitz und Funktion der verordneten Kontaktlinsen (Haftschalen) für beide Augen und gegebenenfalls Anpassung anderer Kontaktlinsen (Haftschalen) - einschließlich objektiver Refraktionsbestimmung, Messung der Hornhautradien und der Spaltlampenmikroskopie - | 198 | 22,57 |
+| | Neben den Leistungen nach den Nummern 1210 bis 1213 sind die Leistungen nach den Nummern 5 und/oder 6 nicht berechnungsfähig. | | |
+| | Wurden harte Kontaktlinsen (Haftschalen) nicht vertragen und müssen deshalb weiche Kontaktlinsen angepaßt werden, sind die Leistungen nach der Nummer 1210 oder 1211 nicht erneut, sondern lediglich die Leistungen nach der Nummer 1212 oder 1213 berechnungsfähig. | | |
+| 1215 | Bestimmung von Fernrohrbrillen oder Lupenbrillen, je Sitzung | 121 | 13,79 |
+| 1216 | Untersuchung auf Heterophorie bzw. Strabismus - gegebenenfalls einschließlich qualitativer Untersuchung des binokularen Sehaktes - | 91 | 10,37 |
+| 1217 | Qualitative und quantitative Untersuchung des binokularen Sehaktes | 242 | 27,59 |
+| | Neben der Leistung nach Nummer 1217 sind die Leistungen nach den Nummern 5 und/oder 6 nicht berechnungsfähig. | | |
+| 1218 | Differenzierende Analyse und graphische Darstellung des Bewegungsablaufs beider Augen bei Augenmuskelstörungen, mindestens 36 Blickrichtungen pro Auge | 700 | 79,80 |
+| 1225 | Kampimetrie (z.B. Bjerrum) - auch Perimetrie nach Förster - | 121 | 13,79 |
+| 1226 | Projektionsperimetrie mit Marken verschiedener Reizwerte | 182 | 20,75 |
+| 1227 | Quantitativ abgestufte (statische) Profilperimetrie | 248 | 28,27 |
+| 1228 | Farbsinnprüfung mit Pigmentproben (z.B. Farbtafeln) | 61 | 6,95 |
+| 1229 | Farbsinnprüfung mit Anomaloskop | 182 | 20,75 |
+| 1233 | Vollständige Untersuchung des zeitlichen Ablaufs der Adaptation | 484 | 55,18 |
+| | Neben der Leistung nach Nummer 1233 ist die Leistung nach Nummer 1234 nicht berechnungsfähig. | | |
+| 1234 | Untersuchung des Dämmerungssehens ohne Blendung | 91 | 10,37 |
+| 1235 | Untersuchung des Dämmerungssehens während der Blendung | 91 | 10,37 |
+| 1236 | Untersuchung des Dämmerungssehens nach der Blendung (Readaptation) | 91 | 10,37 |
+| 1237 | Elektroretinographische Untersuchung (ERG) und/oder elektrookulographische Untersuchung (EOG) | 600 | 68,40 |
+| 1240 | Spaltlampenmikroskopie der vorderen und mittleren Augenabschnitte - gegebenenfalls einschließlich der binokularen Untersuchung des hinteren Poles (z.B. Hruby-Linse) - | 74 | 8,44 |
+| 1241 | Gonioskopie | 152 | 17,33 |
+| 1242 | Binokulare Untersuchung des Augenhintergrundes einschließlich der äußeren Peripherie (z.B. Dreispiegelkontaktglas, Schaepens) - gegebenenfalls einschließlich der Spaltlampenmikroskopie der vorderen und mittleren Augenabschnitte und/oder diasklerale Durchleuchtung - | 152 | 17,33 |
+| 1243 | Diasklerale Durchleuchtung | 61 | 6,95 |
+| 1244 | Exophthalmometrie | 50 | 5,70 |
+| 1248 | Fluoreszenzuntersuchung der terminalen Strombahn am Augenhintergrund - einschließlich Applikation des Teststoffes - | 242 | 27,59 |
+| 1249 | Fluoreszenzangiographische Untersuchung der terminalen Strombahn am Augenhintergrund - einschließlich Aufnahmen und Applikation des Teststoffes - | 484 | 55,18 |
+| | Mit den Gebühren für die Leistungen nach den Nummern 1248 und 1249 sind die Kosten abgegolten. | | |
+| 1250 | Lokalisation eines Fremdkörpers nach Comberg oder Vogt | 273 | 31,12 |
+| 1251 | Lokalisation einer Netzhautveränderung als Voraussetzung für einen gezielten intraokularen Eingriff | 273 | 31,12 |
+| 1252 | Fotographische Verlaufskontrolle intraokularer Veränderungen mittels Spaltlampenfotografie | 100 | 11,40 |
+| 1253 | Fotographische Verlaufskontrolle von Veränderungen des Augenhintergrunds mittels Fundusfotografie | 150 | 17,10 |
+| 1255 | Tonometrische Untersuchung mit Anwendung des Impressionstonometers | 70 | 7,98 |
+| 1256 | Tonometrische Untersuchung mit Anwendung des Applanationstonometers | 100 | 11,40 |
+| 1257 | Tonometrische Untersuchung (mehrfach in zeitlichem Zusammenhang zur Anfertigung tonometrischer Kurven, mindestens vier Messungen) - auch fortlaufende Tonometrie zur Ermittlung des Abflußwiderstandes - | 242 | 27,59 |
+| 1259 | Pupillographie | 242 | 27,59 |
+| 1260 | Elektromyographie der äußeren Augenmuskeln | 560 | 63,84 |
+| 1262 | Ophthalmodynamometrie - gegebenenfalls einschließlich Tonometrie -, erste Messung | 242 | 27,59 |
+| 1263 | Ophthalmodynamometrie - gegebenenfalls einschließlich Tonometrie -, jede weitere Messung | 152 | 17,33 |
+| 1268 | Aktive Behandlung der Schwachsichtigkeit (Pleoptik) mittels Spezial-Ophthalmoskop, Mindestdauer 20 Minuten | 152 | 17,33 |
+| 1269 | Behandlung der gestörten Binokularfunktion (Orthoptik) mit Geräten nach dem Prinzip des Haploskops (z.B. Synoptophor, Amblyoskop), Mindestdauer 20 Minuten | 152 | 17,33 |
+| 1270 | Unterstützende oder ergänzende pleoptische oder orthoptische Behandlung an optischen Zusatz- oder Übungsgeräten, Mindestdauer 20 Minuten | 54 | 6,16 |
+| 1271 | Auswahl und Einprobieren eines künstlichen Auges | 46 | 5,24 |
+| 1275 | Entfernung von oberflächlichen Fremdkörpern von der Bindehaut und/oder der Hornhaut | 37 | 4,22 |
+| 1276 | Instrumentelle Entfernung von Fremdkörpern von der Hornhautoberfläche, aus der Lederhaut und/oder von eingebrannten Fremdkörpern aus der Bindehaut und/oder der Hornhaut | 74 | 8,44 |
+| 1277 | Entfernung von eisenhaltigen eingebrannten Fremdkörpern aus der Hornhaut mit Ausfräsen des Rostringes | 152 | 17,33 |
+| 1278 | Entfernung von eingespießten Fremdkörpern aus der Hornhaut mittels Präparation | 278 | 31,69 |
+| 1279 | Entfernung von Korneoskleralfäden | 100 | 11,40 |
+| 1280 | Entfernung von eisenhaltigen Fremdkörpern aus dem Augeninnern mit Hilfe des Magneten - einschließlich Eröffnung des Augapfels - | 1290 | 147,06 |
+| 1281 | Entfernung von nichtmagnetischen Fremdkörpern oder einer Geschwulst aus dem Augeninnern | 2220 | 253,08 |
+| 1282 | Entfernung einer Geschwulst oder von Kalkinfarkten aus den Lidern eines Auges oder aus der Augapfelbindehaut | 152 | 17,33 |
+| 1283 | Entfernung von Fremdkörpern oder einer Geschwulst aus der Augenhöhle ohne Resektion der Orbitalwand und ohne Muskelablösung | 554 | 63,16 |
+| 1284 | Entfernung von Fremdkörpern oder einer Geschwulst aus der Augenhöhle ohne Resektion der Orbitalwand mit Muskelablösung | 924 | 105,34 |
+| 1285 | Entfernung von Fremdkörpern oder einer Geschwulst aus der Augenhöhle mit Resektion der Orbitalwand | 1480 | 168,72 |
+| 1290 | Vorbereitende operative Maßnahmen zur Rekonstruktion einer Orbita unter Verwendung örtlichen Materials, ausgenommen das knöcherne Gerüst | 1500 | 171,-- |
+| 1291 | Wiederherstellungsoperation an der knöchernen Augenhöhle (z.B. nach Fraktur) | 1850 | 210,90 |
+| 1292 | Operation der Augenhöhlen- oder Tränensackphlegmone | 278 | 31,69 |
+| 1293 | Dehnung, Durchspülung, Sondierung, Salbenfüllung oder Kaustik der Tränenwege, auch beidseitig | 74 | 8,44 |
+| 1294 | Sondierung des Tränennasengangs bei Säuglingen und Kleinkindern, auch beidseitig | 130 | 14,82 |
+| 1297 | Operation des evertierten Tränenpünktchens | 152 | 17,33 |
+| 1298 | Spaltung von Strikturen des Tränennasenkanals | 132 | 15,05 |
+| 1299 | Tränensackexstirpation | 554 | 63,16 |
+
+| 1300 | Tränensackoperation zur Wiederherstellung des Tränenabflusses zur Nase mit Knochenfensterung | 1220 | 139,08 |
+| --- | --- | --- | --- |
+| 1301 | Exstirpation oder Verödung der Tränendrüse | 463 | 52,78 |
+| 1302 | Plastische Korrektur der verengten oder erweiterten Lidspalte oder des Epikanthus | 924 | 105,34 |
+| 1303 | Vorübergehende Spaltung der verengten Lidspalte | 230 | 26,22 |
+| 1304 | Plastische Korrektur des Ektropiums oder Entropiums, der Trichiasis oder Distichiasis | 924 | 105,34 |
+| 1305 | Operation der Lidsenkung (Ptosis) | 739 | 84,25 |
+| 1306 | Operation der Lidsenkung (Ptosis) mit direkter Lidheberverkürzung | 1110 | 126,54 |
+| 1310 | Augenlidplastik mittels freien Hauttransplantates | 1480 | 168,72 |
+| 1311 | Augenlidplastik mittels Hautlappenverschiebung aus der Umgebung | 1110 | 126,54 |
+| 1312 | Augenlidplastik mittels Hautlappenverschiebung aus der Umgebung und freier Transplantation | 1850 | 210,90 |
+| 1313 | Abreiben, Skarifizieren oder chemische Ätzung der Bindehaut, auch beidseitig | 30 | 3,42 |
+| 1318 | Ausrollen oder Ausquetschen der Übergangsfalte | 74 | 8,44 |
+| 1319 | Plastische Wiederherstellung des Bindehautsackes durch Transplantation von Lippenschleimhaut und/oder Bindehaut bei erhaltenem Augapfel - einschließlich Entnahme des Transplantates und gegebenenfalls einschließlich Maßnahmen am Lidknorpel - | 1850 | 210,90 |
+| 1320 | Einspritzung unter die Bindehaut | 52 | 5,93 |
+| 1321 | Operation des Flügelfells | 296 | 33,74 |
+| 1322 | Operation des Flügelfells mit lamellierender Keratoplastik | 1660 | 189,24 |
+| 1323 | Elektrolytische Epilation von Wimpernhaaren, je Sitzung | 67 | 7,64 |
+| 1325 | Naht einer Bindehaut- oder nicht perforierenden Hornhaut- oder nicht perforierenden Lederhautwunde | 230 | 26,22 |
+| 1326 | Direkte Naht einer perforierenden Hornhaut- oder Lederhautwunde - auch mit Reposition oder Abtragung der Regenbogenhaut und gegebenenfalls mit Bindehautdeckung - | 1110 | 126,54 |
+| 1327 | Wiederherstellungsoperation bei perforierender Hornhaut- oder Lederhautverletzung mit Versorgung von Regenbogenhaut und Linse | 1850 | 210,90 |
+| 1328 | Wiederherstellungsoperation bei schwerverletztem Augapfel, Zerschneidung von Hornhaut und Lederhaut, Beteiligung der Iris, der Linse, des Glaskörpers und der Netzhaut | 3230 | 368,22 |
+| 1330 | Korrektur einer Schielstellung durch Eingriff an einem geraden Augenmuskel | 739 | 84,25 |
+| 1331 | Korrektur einer Schielstellung durch Eingriff an jedem weiteren geraden Augenmuskel, zusätzlich zu Nummer 1330 | 554 | 63,16 |
+| 1332 | Korrektur einer Schielstellung durch Eingriff an einem schrägen Augenmuskel | 1110 | 126,54 |
+| 1333 | Korrektur einer Schielstellung durch Eingriff an jedem weiteren schrägen Augenmuskel, zusätzlich zu Nummer 1332 | 739 | 84,25 |
+| 1338 | Chemische Ätzung der Hornhaut | 56 | 6,38 |
+| 1339 | Abschabung der Hornhaut | 148 | 16,87 |
+| 1340 | Thermo- oder Kryotherapie von Hornhauterkrankungen (z.B. Herpes ulcus) mit Epithelentfernung | 185 | 21,09 |
+| 1341 | Tätowierung der Hornhaut | 333 | 37,96 |
+| 1345 | Hornhautplastik | 1660 | 189,24 |
+| 1346 | Hornhauttransplantation | 2770 | 315,78 |
+| 1347 | Einpflanzung einer optischen Kunststoffprothese in die Hornhaut (Keratoprothesis) | 3030 | 345,42 |
+| 1348 | Diszision der klaren oder getrübten Linse oder des Nachstars | 832 | 94,85 |
+| 1349 | Operation des weichen Stars (Saug-Spül-Vorgang) - gegebenenfalls mit Extraktion zurückgebliebener Linsenteile - | 1850 | 210,90 |
+| 1350 | Staroperation - gegebenenfalls mit Iridektomie - einschließlich Nahttechnik | 2370 | 270,18 |
+| 1351 | Staroperation mit Iridektomie und Einpflanzung einer intraokularen Kunststofflinse | 2770 | 315,78 |
+| 1352 | Einpflanzung einer intraokularen Linse, als selbständige Leistung | 1800 | 205,20 |
+| 1353 | Extraktion einer eingepflanzten Linse | 832 | 94,85 |
+| 1354 | Extraktion der luxierten Linse | 2220 | 253,08 |
+| 1355 | Partielle oder totale Extraktion des Nachstars | 1110 | 126,54 |
+| 1356 | Eröffnung (Parazentese), Spülung oder Wiederherstellung der Augenvorderkammer, als selbständige Leistung | 370 | 42,18 |
+| 1357 | Hintere Sklerotomie | 370 | 42,18 |
+| 1358 | Zyklodialyse, Iridektomie | 1000 | 114,-- |
+| 1359 | Zyklodiathermie-Operation oder Kryozyklothermie-Operation | 500 | 57,-- |
+| 1360 | Laseroperation am Trabekelwerk des Auges bei Glaukom (Lasertrabekuloplastik) | 1000 | 114,-- |
+| 1361 | Fistelbildende Operation und Eingriff an den kammerwasserabführenden Wegen bei Glaukom | 1850 | 210,90 |
+| 1362 | Kombinierte Operation des Grauen Stars und bei Glaukom | 3030 | 345,42 |
+| 1365 | Lichtkoagulation zur Verhinderung einer Netzhautablösung und/oder Netzhautblutung, je Sitzung | 924 | 105,34 |
+| 1366 | Vorbeugende Operation zur Verhinderung einer Netzhautablösung oder operativer Eingriff bei vaskulären Netzhauterkrankungen | 1110 | 126,54 |
+| 1367 | Operation einer Netzhautablösung mit eindellenden Maßnahmen | 2220 | 253,08 |
+| 1368 | Operation einer Netzhautablösung mit eindellenden Maßnahmen und Glaskörperchirurgie | 3030 | 345,42 |
+| 1369 | Koagulation oder Lichtkaustik eines Netz- oder Aderhauttumors | 1850 | 210,90 |
+| 1370 | Operative Entfernung des Augapfels | 924 | 105,34 |
+| 1371 | Operative Entfernung des Augapfels mit Einsetzung einer Plombe | 1290 | 147,06 |
+| 1372 | Wiederherstellung eines prothesenfähigen Bindehautsackes mittels Transplantation | 1850 | 210,90 |
+| 1373 | Operative Ausräumung der Augenhöhle | 1110 | 126,54 |
+| 1374 | Extrakapsuläre Operation des Grauen Stars mittels gesteuerten Saug-Spül-Verfahrens oder Linsenkernverflüssigung (Phakoemulsifikation) - gegebenenfalls einschließlich Iridektomie - | 3050 | 347,70 |
+| 1375 | Extrakapsuläre Operation des Grauen Stars mittels gesteuerten Saug-Spül-Verfahrens oder Linsenkernverflüssigung (Phakoemulsifikation) - gegebenenfalls einschließlich Iridektomie -, mit Implantation einer intraokularen Linse | 3500 | 399,-- |
+| 1376 | Rekonstruktion eines abgerissenen Tränenröhrchens | 1480 | 168,72 |
+| 1377 | Entfernung einer Silikon-/Silastik-/ Rutheniumplombe | 280 | 31,92 |
+| 1380 | Operative Entfernung eines Iristumors | 2000 | 228,-- |
+| 1381 | Operative Entfernung eines Iris-Ziliar-Aderhauttumors (Zyklektomie) | 2770 | 315,78 |
+| 1382 | Goniotrepanation oder Trabekulektomie oder Trabekulotomie bei Glaukom | 2500 | 285,-- |
+| 1383 | Vitrektomie, Glaskörperstrangdurchtrennung, als selbständige Leistung | 2500 | 285,-- |
+| 1384 | Vordere Vitrektomie (Glaskörperentfernung aus der Augenvorderkammer), als selbständige Leistung | 830 | 94,62 |
+| 1386 | Aufnähen einer Rutheniumplombe auf die Lederhaut | 1290 | 147,06 |
+
+J. 

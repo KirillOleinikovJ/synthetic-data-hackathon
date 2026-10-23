@@ -1,0 +1,1858 @@
+{
+  "_meta": {
+    "scenario_id": "goae_ophthalmology_v1",
+    "currency": "EUR",
+    "billing_rule": "GOAE Stand 01.01.2002",
+    "punktwert_eur": "0.0582873",
+    "source": "GOÄ Anlage, Abschnitt Augenheilkunde, Nummern 1200-1386, plus allgemeine Leistungen 1, 5, 6, 34, 200, 440, 442-445, 491, 2007.",
+    "specialty": "Augenheilkunde",
+    "coverage": "Every fee code in GOÄ section I is listed. Diagnoses are groups across that section, not the full ICD catalogue."
+  },
+  "diagnoses": [
+    {
+      "id": "refractive_error",
+      "label": "Refraktionsfehler",
+      "exam_codes": [
+        "1200",
+        "1201",
+        "1202"
+      ],
+      "surgery_codes": [],
+      "bilateral": false
+    },
+    {
+      "id": "contact_lens",
+      "label": "Kontaktlinsenanpassung",
+      "exam_codes": [
+        "1211"
+      ],
+      "surgery_codes": [],
+      "bilateral": false
+    },
+    {
+      "id": "strabismus_exam",
+      "label": "Heterophorie oder Strabismus, Diagnostik",
+      "exam_codes": [
+        "1216",
+        "1217"
+      ],
+      "surgery_codes": [],
+      "bilateral": false
+    },
+    {
+      "id": "strabismus_surgery",
+      "label": "Strabismus, operative Korrektur",
+      "exam_codes": [
+        "1216"
+      ],
+      "surgery_codes": [
+        "1330"
+      ],
+      "bilateral": false
+    },
+    {
+      "id": "visual_field",
+      "label": "Gesichtsfeldausfall",
+      "exam_codes": [
+        "1225",
+        "1227"
+      ],
+      "surgery_codes": [],
+      "bilateral": false
+    },
+    {
+      "id": "color_vision",
+      "label": "Farbsinnstoerung",
+      "exam_codes": [
+        "1228",
+        "1229"
+      ],
+      "surgery_codes": [],
+      "bilateral": false
+    },
+    {
+      "id": "night_vision",
+      "label": "Stoerung des Daemmerungssehens",
+      "exam_codes": [
+        "1234",
+        "1235"
+      ],
+      "surgery_codes": [],
+      "bilateral": false
+    },
+    {
+      "id": "retinal_function",
+      "label": "Netzhautfunktionsstoerung",
+      "exam_codes": [
+        "1237"
+      ],
+      "surgery_codes": [],
+      "bilateral": false
+    },
+    {
+      "id": "anterior_segment",
+      "label": "Erkrankung des vorderen Augenabschnitts",
+      "exam_codes": [
+        "1240",
+        "1252"
+      ],
+      "surgery_codes": [],
+      "bilateral": false
+    },
+    {
+      "id": "fundus",
+      "label": "Erkrankung des Augenhintergrunds",
+      "exam_codes": [
+        "1242",
+        "1253"
+      ],
+      "surgery_codes": [],
+      "bilateral": false
+    },
+    {
+      "id": "retinal_angiography",
+      "label": "Vaskulaere Netzhauterkrankung",
+      "exam_codes": [
+        "1249"
+      ],
+      "surgery_codes": [],
+      "bilateral": false
+    },
+    {
+      "id": "glaucoma",
+      "label": "Glaukom",
+      "exam_codes": [
+        "1241",
+        "1256",
+        "1227"
+      ],
+      "surgery_codes": [],
+      "bilateral": false
+    },
+    {
+      "id": "glaucoma_laser",
+      "label": "Glaukom, Lasertrabekuloplastik",
+      "exam_codes": [
+        "1256",
+        "1241"
+      ],
+      "surgery_codes": [
+        "1360"
+      ],
+      "bilateral": false
+    },
+    {
+      "id": "glaucoma_surgery",
+      "label": "Glaukom, filtrierende Operation",
+      "exam_codes": [
+        "1256"
+      ],
+      "surgery_codes": [
+        "1382"
+      ],
+      "bilateral": false
+    },
+    {
+      "id": "dry_eye",
+      "label": "Trockenes Auge",
+      "exam_codes": [
+        "1209",
+        "1240"
+      ],
+      "surgery_codes": [],
+      "bilateral": false
+    },
+    {
+      "id": "corneal_foreign_body",
+      "label": "Hornhautfremdkörper",
+      "exam_codes": [
+        "1240"
+      ],
+      "surgery_codes": [
+        "1276"
+      ],
+      "bilateral": false
+    },
+    {
+      "id": "intraocular_foreign_body",
+      "label": "Intraokularer Fremdkörper",
+      "exam_codes": [
+        "1250"
+      ],
+      "surgery_codes": [
+        "1280"
+      ],
+      "bilateral": false
+    },
+    {
+      "id": "lid_tumor",
+      "label": "Lidtumor",
+      "exam_codes": [
+        "1240"
+      ],
+      "surgery_codes": [
+        "1282"
+      ],
+      "bilateral": false
+    },
+    {
+      "id": "orbital_fracture",
+      "label": "Orbitafraktur",
+      "exam_codes": [
+        "1244"
+      ],
+      "surgery_codes": [
+        "1291"
+      ],
+      "bilateral": false
+    },
+    {
+      "id": "lacrimal_stenosis",
+      "label": "Traenenwegstenose",
+      "exam_codes": [
+        "1293"
+      ],
+      "surgery_codes": [
+        "1300"
+      ],
+      "bilateral": false
+    },
+    {
+      "id": "dermatochalasis_bds",
+      "label": "Dermatochalasis bds. Oberlid",
+      "exam_codes": [
+        "1240"
+      ],
+      "surgery_codes": [
+        "1311"
+      ],
+      "bilateral": true
+    },
+    {
+      "id": "entropium",
+      "label": "Entropium oder Ektropium",
+      "exam_codes": [
+        "1240"
+      ],
+      "surgery_codes": [
+        "1304"
+      ],
+      "bilateral": false
+    },
+    {
+      "id": "ptosis_bds",
+      "label": "Ptosis bds. Oberlid",
+      "exam_codes": [
+        "1240"
+      ],
+      "surgery_codes": [
+        "1306"
+      ],
+      "bilateral": true
+    },
+    {
+      "id": "pterygium",
+      "label": "Pterygium",
+      "exam_codes": [
+        "1240"
+      ],
+      "surgery_codes": [
+        "1321"
+      ],
+      "bilateral": false
+    },
+    {
+      "id": "corneal_wound",
+      "label": "Perforierende Hornhautverletzung",
+      "exam_codes": [
+        "1240"
+      ],
+      "surgery_codes": [
+        "1326"
+      ],
+      "bilateral": false
+    },
+    {
+      "id": "keratoplasty",
+      "label": "Hornhauttransplantation",
+      "exam_codes": [
+        "1204",
+        "1240"
+      ],
+      "surgery_codes": [
+        "1346"
+      ],
+      "bilateral": false
+    },
+    {
+      "id": "cataract",
+      "label": "Cataracta",
+      "exam_codes": [
+        "1242",
+        "1256"
+      ],
+      "surgery_codes": [
+        "1375"
+      ],
+      "bilateral": false
+    },
+    {
+      "id": "aftercataract",
+      "label": "Nachstar",
+      "exam_codes": [
+        "1240"
+      ],
+      "surgery_codes": [
+        "1355"
+      ],
+      "bilateral": false
+    },
+    {
+      "id": "retinal_detachment",
+      "label": "Netzhautabloesung",
+      "exam_codes": [
+        "1242",
+        "1251"
+      ],
+      "surgery_codes": [
+        "1367"
+      ],
+      "bilateral": false
+    },
+    {
+      "id": "retinal_laser",
+      "label": "Netzhautblutung, Lichtkoagulation",
+      "exam_codes": [
+        "1242"
+      ],
+      "surgery_codes": [
+        "1365"
+      ],
+      "bilateral": false
+    },
+    {
+      "id": "enucleation",
+      "label": "Entfernung des Augapfels",
+      "exam_codes": [
+        "1242"
+      ],
+      "surgery_codes": [
+        "1370"
+      ],
+      "bilateral": false
+    },
+    {
+      "id": "vitrectomy",
+      "label": "Glaskoerpererkrankung",
+      "exam_codes": [
+        "1242"
+      ],
+      "surgery_codes": [
+        "1383"
+      ],
+      "bilateral": false
+    },
+    {
+      "id": "iris_tumor",
+      "label": "Iristumor",
+      "exam_codes": [
+        "1240"
+      ],
+      "surgery_codes": [
+        "1380"
+      ],
+      "bilateral": false
+    },
+    {
+      "id": "amblyopia",
+      "label": "Schwachsichtigkeit",
+      "exam_codes": [
+        "1216",
+        "1268"
+      ],
+      "surgery_codes": [],
+      "bilateral": false
+    },
+    {
+      "id": "corneal_ulcer",
+      "label": "Hornhautulkus",
+      "exam_codes": [
+        "1240"
+      ],
+      "surgery_codes": [
+        "1340"
+      ],
+      "bilateral": false
+    }
+  ],
+  "services": [
+    {
+      "code": "1",
+      "points": 80,
+      "description": "Beratung, auch mittels Fernsprecher",
+      "einfachsatz_eur": 4.66,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "consult",
+      "bilateral_qty": false
+    },
+    {
+      "code": "5",
+      "points": 80,
+      "description": "Symptombezogene Untersuchung",
+      "einfachsatz_eur": 4.66,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "consult",
+      "bilateral_qty": false
+    },
+    {
+      "code": "6",
+      "points": 100,
+      "description": "Vollstaendige Untersuchung eines Organsystems, alle Augenabschnitte",
+      "einfachsatz_eur": 5.83,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "consult",
+      "bilateral_qty": false
+    },
+    {
+      "code": "34",
+      "points": 300,
+      "description": "Eroerterung mind. 20 Minuten, einschliesslich Planung einer Operation",
+      "einfachsatz_eur": 17.49,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "preop",
+      "bilateral_qty": false
+    },
+    {
+      "code": "200",
+      "points": 45,
+      "description": "Verband, ausgenommen Schnell- und Spruehverbaende",
+      "einfachsatz_eur": 2.62,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "followup",
+      "bilateral_qty": false
+    },
+    {
+      "code": "2007",
+      "points": 40,
+      "description": "Entfernung von Faeden oder Klammern",
+      "einfachsatz_eur": 2.33,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "followup",
+      "bilateral_qty": false
+    },
+    {
+      "code": "440",
+      "points": 400,
+      "description": "Zuschlag fuer Operationsmikroskop bei ambulanter Operation",
+      "einfachsatz_eur": 23.31,
+      "typical_factor": 1.0,
+      "max_factor": 1.0,
+      "phase": "surcharge",
+      "bilateral_qty": false
+    },
+    {
+      "code": "491",
+      "points": 121,
+      "description": "Infiltrationsanaesthesie grosser Bezirke",
+      "einfachsatz_eur": 7.05,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "surgery",
+      "bilateral_qty": true
+    },
+    {
+      "code": "442",
+      "points": 400,
+      "description": "Zuschlag ambulante Operation, 250 bis 499 Punkte",
+      "einfachsatz_eur": 23.31,
+      "typical_factor": 1.0,
+      "max_factor": 1.0,
+      "phase": "ambulatory_surcharge",
+      "point_min": 250,
+      "point_max": 499,
+      "bilateral_qty": false
+    },
+    {
+      "code": "443",
+      "points": 750,
+      "description": "Zuschlag ambulante Operation, 500 bis 799 Punkte",
+      "einfachsatz_eur": 43.72,
+      "typical_factor": 1.0,
+      "max_factor": 1.0,
+      "phase": "ambulatory_surcharge",
+      "point_min": 500,
+      "point_max": 799,
+      "bilateral_qty": false
+    },
+    {
+      "code": "444",
+      "points": 1300,
+      "description": "Zuschlag ambulante Operation, 800 bis 1199 Punkte",
+      "einfachsatz_eur": 75.77,
+      "typical_factor": 1.0,
+      "max_factor": 1.0,
+      "phase": "ambulatory_surcharge",
+      "point_min": 800,
+      "point_max": 1199,
+      "bilateral_qty": false
+    },
+    {
+      "code": "445",
+      "points": 2200,
+      "description": "Zuschlag ambulante Operation, 1200 und mehr Punkte",
+      "einfachsatz_eur": 128.23,
+      "typical_factor": 1.0,
+      "max_factor": 1.0,
+      "phase": "ambulatory_surcharge",
+      "point_min": 1200,
+      "point_max": 99999,
+      "bilateral_qty": false
+    },
+    {
+      "code": "1200",
+      "points": 59,
+      "description": "Subjektive Refraktionsbestimmung mit sphärischen Gläsern",
+      "einfachsatz_eur": 3.44,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1201",
+      "points": 89,
+      "description": "Subjektive Refraktionsbestimmung mit sphärisch-zylindrischen Gläsern",
+      "einfachsatz_eur": 5.19,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1202",
+      "points": 74,
+      "description": "Objektive Refraktionsbestimmung mittels Skiaskopie oder Anwendung eines Refraktometers",
+      "einfachsatz_eur": 4.31,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1203",
+      "points": 60,
+      "description": "Messung der Maximal- oder Gebrauchsakkommodation mittels Akkommodometer oder Optometer",
+      "einfachsatz_eur": 3.5,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1204",
+      "points": 45,
+      "description": "Messung der Hornhautkrümmungsradien",
+      "einfachsatz_eur": 2.62,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1207",
+      "points": 70,
+      "description": "Prüfung von Mehrstärken- oder Prismenbrillen mit Bestimmung der Fern- und Nahpunkte bei subjektiver Brillenunverträglichkeit",
+      "einfachsatz_eur": 4.08,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1209",
+      "points": 20,
+      "description": "Nachweis der Tränensekretionsmenge (z.B. Schirmer-Test)",
+      "einfachsatz_eur": 1.17,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1210",
+      "points": 228,
+      "description": "Erstanpassung und Auswahl der Kontaktlinse (Haftschale) für ein Auge zum Zwecke der Verordnung - einschließlich objektiver Refraktionsbestimmung, Messung der Hornhautradien und der",
+      "einfachsatz_eur": 13.29,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1211",
+      "points": 300,
+      "description": "Erstanpassung und Auswahl der Kontaktlinsen (Haftschalen) für beide Augen zum Zwecke der Verordnung - einschließlich objektiver Refraktionsbestimmung, Messung der Hornhautradien un",
+      "einfachsatz_eur": 17.49,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1212",
+      "points": 132,
+      "description": "Prüfung auf Sitz und Funktion der verordneten Kontaktlinse (Haftschale) für ein Auge und gegebenenfalls Anpassung einer anderen Kontaktlinse (Haftschale) - einschließlich objektive",
+      "einfachsatz_eur": 7.69,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1213",
+      "points": 198,
+      "description": "Prüfung auf Sitz und Funktion der verordneten Kontaktlinsen (Haftschalen) für beide Augen und gegebenenfalls Anpassung anderer Kontaktlinsen (Haftschalen) - einschließlich objektiv",
+      "einfachsatz_eur": 11.54,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1215",
+      "points": 121,
+      "description": "Bestimmung von Fernrohrbrillen oder Lupenbrillen, je Sitzung",
+      "einfachsatz_eur": 7.05,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1216",
+      "points": 91,
+      "description": "Untersuchung auf Heterophorie bzw. Strabismus - gegebenenfalls einschließlich qualitativer Untersuchung des binokularen Sehaktes",
+      "einfachsatz_eur": 5.3,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1217",
+      "points": 242,
+      "description": "Qualitative und quantitative Untersuchung des binokularen Sehaktes",
+      "einfachsatz_eur": 14.11,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1218",
+      "points": 700,
+      "description": "Differenzierende Analyse und graphische Darstellung des Bewegungsablaufs beider Augen bei Augenmuskelstörungen, mindestens 36 Blickrichtungen pro Auge",
+      "einfachsatz_eur": 40.8,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1225",
+      "points": 121,
+      "description": "Kampimetrie (z.B. Bjerrum) - auch Perimetrie nach Förster",
+      "einfachsatz_eur": 7.05,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1226",
+      "points": 182,
+      "description": "Projektionsperimetrie mit Marken verschiedener Reizwerte",
+      "einfachsatz_eur": 10.61,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1227",
+      "points": 248,
+      "description": "Quantitativ abgestufte (statische) Profilperimetrie",
+      "einfachsatz_eur": 14.46,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1228",
+      "points": 61,
+      "description": "Farbsinnprüfung mit Pigmentproben (z.B. Farbtafeln)",
+      "einfachsatz_eur": 3.56,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1229",
+      "points": 182,
+      "description": "Farbsinnprüfung mit Anomaloskop",
+      "einfachsatz_eur": 10.61,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1233",
+      "points": 484,
+      "description": "Vollständige Untersuchung des zeitlichen Ablaufs der Adaptation",
+      "einfachsatz_eur": 28.21,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1234",
+      "points": 91,
+      "description": "Untersuchung des Dämmerungssehens ohne Blendung",
+      "einfachsatz_eur": 5.3,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1235",
+      "points": 91,
+      "description": "Untersuchung des Dämmerungssehens während der Blendung",
+      "einfachsatz_eur": 5.3,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1236",
+      "points": 91,
+      "description": "Untersuchung des Dämmerungssehens nach der Blendung (Readaptation)",
+      "einfachsatz_eur": 5.3,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1237",
+      "points": 600,
+      "description": "Elektroretinographische Untersuchung (ERG) und/oder elektrookulographische Untersuchung (EOG)",
+      "einfachsatz_eur": 34.97,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1240",
+      "points": 74,
+      "description": "Spaltlampenmikroskopie der vorderen und mittleren Augenabschnitte - gegebenenfalls einschließlich der binokularen Untersuchung des hinteren Poles (z.B. Hruby-Linse)",
+      "einfachsatz_eur": 4.31,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1241",
+      "points": 152,
+      "description": "Gonioskopie",
+      "einfachsatz_eur": 8.86,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1242",
+      "points": 152,
+      "description": "Binokulare Untersuchung des Augenhintergrundes einschließlich der äußeren Peripherie (z.B. Dreispiegelkontaktglas, Schaepens) - gegebenenfalls einschließlich der Spaltlampenmikrosk",
+      "einfachsatz_eur": 8.86,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1243",
+      "points": 61,
+      "description": "Diasklerale Durchleuchtung",
+      "einfachsatz_eur": 3.56,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1244",
+      "points": 50,
+      "description": "Exophthalmometrie",
+      "einfachsatz_eur": 2.91,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1248",
+      "points": 242,
+      "description": "Fluoreszenzuntersuchung der terminalen Strombahn am Augenhintergrund - einschließlich Applikation des Teststoffes",
+      "einfachsatz_eur": 14.11,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1249",
+      "points": 484,
+      "description": "Fluoreszenzangiographische Untersuchung der terminalen Strombahn am Augenhintergrund - einschließlich Aufnahmen und Applikation des Teststoffes",
+      "einfachsatz_eur": 28.21,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1250",
+      "points": 273,
+      "description": "Lokalisation eines Fremdkörpers nach Comberg oder Vogt",
+      "einfachsatz_eur": 15.91,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1251",
+      "points": 273,
+      "description": "Lokalisation einer Netzhautveränderung als Voraussetzung für einen gezielten intraokularen Eingriff",
+      "einfachsatz_eur": 15.91,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1252",
+      "points": 100,
+      "description": "Fotographische Verlaufskontrolle intraokularer Veränderungen mittels Spaltlampenfotografie",
+      "einfachsatz_eur": 5.83,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1253",
+      "points": 150,
+      "description": "Fotographische Verlaufskontrolle von Veränderungen des Augenhintergrunds mittels Fundusfotografie",
+      "einfachsatz_eur": 8.74,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1255",
+      "points": 70,
+      "description": "Tonometrische Untersuchung mit Anwendung des Impressionstonometers",
+      "einfachsatz_eur": 4.08,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1256",
+      "points": 100,
+      "description": "Tonometrische Untersuchung mit Anwendung des Applanationstonometers",
+      "einfachsatz_eur": 5.83,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1257",
+      "points": 242,
+      "description": "Tonometrische Untersuchung (mehrfach in zeitlichem Zusammenhang zur Anfertigung tonometrischer Kurven, mindestens vier Messungen) - auch fortlaufende Tonometrie zur Ermittlung des ",
+      "einfachsatz_eur": 14.11,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1259",
+      "points": 242,
+      "description": "Pupillographie",
+      "einfachsatz_eur": 14.11,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1260",
+      "points": 560,
+      "description": "Elektromyographie der äußeren Augenmuskeln",
+      "einfachsatz_eur": 32.64,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1262",
+      "points": 242,
+      "description": "Ophthalmodynamometrie - gegebenenfalls einschließlich Tonometrie -, erste Messung",
+      "einfachsatz_eur": 14.11,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1263",
+      "points": 152,
+      "description": "Ophthalmodynamometrie - gegebenenfalls einschließlich Tonometrie -, jede weitere Messung",
+      "einfachsatz_eur": 8.86,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1268",
+      "points": 152,
+      "description": "Aktive Behandlung der Schwachsichtigkeit (Pleoptik) mittels Spezial-Ophthalmoskop, Mindestdauer 20 Minuten",
+      "einfachsatz_eur": 8.86,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1269",
+      "points": 152,
+      "description": "Behandlung der gestörten Binokularfunktion (Orthoptik) mit Geräten nach dem Prinzip des Haploskops (z.B. Synoptophor, Amblyoskop), Mindestdauer 20 Minuten",
+      "einfachsatz_eur": 8.86,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1270",
+      "points": 54,
+      "description": "Unterstützende oder ergänzende pleoptische oder orthoptische Behandlung an optischen Zusatz- oder Übungsgeräten, Mindestdauer 20 Minuten",
+      "einfachsatz_eur": 3.15,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1271",
+      "points": 46,
+      "description": "Auswahl und Einprobieren eines künstlichen Auges",
+      "einfachsatz_eur": 2.68,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1275",
+      "points": 37,
+      "description": "Entfernung von oberflächlichen Fremdkörpern von der Bindehaut und/oder der Hornhaut",
+      "einfachsatz_eur": 2.16,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1276",
+      "points": 74,
+      "description": "Instrumentelle Entfernung von Fremdkörpern von der Hornhautoberfläche, aus der Lederhaut und/oder von eingebrannten Fremdkörpern aus der Bindehaut und/oder der Hornhaut",
+      "einfachsatz_eur": 4.31,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "surgery",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1277",
+      "points": 152,
+      "description": "Entfernung von eisenhaltigen eingebrannten Fremdkörpern aus der Hornhaut mit Ausfräsen des Rostringes",
+      "einfachsatz_eur": 8.86,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1278",
+      "points": 278,
+      "description": "Entfernung von eingespießten Fremdkörpern aus der Hornhaut mittels Präparation",
+      "einfachsatz_eur": 16.2,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1279",
+      "points": 100,
+      "description": "Entfernung von Korneoskleralfäden",
+      "einfachsatz_eur": 5.83,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1280",
+      "points": 1290,
+      "description": "Entfernung von eisenhaltigen Fremdkörpern aus dem Augeninnern mit Hilfe des Magneten - einschließlich Eröffnung des Augapfels",
+      "einfachsatz_eur": 75.19,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "surgery",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1281",
+      "points": 2220,
+      "description": "Entfernung von nichtmagnetischen Fremdkörpern oder einer Geschwulst aus dem Augeninnern",
+      "einfachsatz_eur": 129.4,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1282",
+      "points": 152,
+      "description": "Entfernung einer Geschwulst oder von Kalkinfarkten aus den Lidern eines Auges oder aus der Augapfelbindehaut",
+      "einfachsatz_eur": 8.86,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "surgery",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1283",
+      "points": 554,
+      "description": "Entfernung von Fremdkörpern oder einer Geschwulst aus der Augenhöhle ohne Resektion der Orbitalwand und ohne Muskelablösung",
+      "einfachsatz_eur": 32.29,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1284",
+      "points": 924,
+      "description": "Entfernung von Fremdkörpern oder einer Geschwulst aus der Augenhöhle ohne Resektion der Orbitalwand mit Muskelablösung",
+      "einfachsatz_eur": 53.86,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1285",
+      "points": 1480,
+      "description": "Entfernung von Fremdkörpern oder einer Geschwulst aus der Augenhöhle mit Resektion der Orbitalwand",
+      "einfachsatz_eur": 86.27,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1290",
+      "points": 1500,
+      "description": "Vorbereitende operative Maßnahmen zur Rekonstruktion einer Orbita unter Verwendung örtlichen Materials, ausgenommen das knöcherne Gerüst",
+      "einfachsatz_eur": 87.43,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1291",
+      "points": 1850,
+      "description": "Wiederherstellungsoperation an der knöchernen Augenhöhle (z.B. nach Fraktur)",
+      "einfachsatz_eur": 107.83,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "surgery",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1292",
+      "points": 278,
+      "description": "Operation der Augenhöhlen- oder Tränensackphlegmone",
+      "einfachsatz_eur": 16.2,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1293",
+      "points": 74,
+      "description": "Dehnung, Durchspülung, Sondierung, Salbenfüllung oder Kaustik der Tränenwege, auch beidseitig",
+      "einfachsatz_eur": 4.31,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1294",
+      "points": 130,
+      "description": "Sondierung des Tränennasengangs bei Säuglingen und Kleinkindern, auch beidseitig",
+      "einfachsatz_eur": 7.58,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1297",
+      "points": 152,
+      "description": "Operation des evertierten Tränenpünktchens",
+      "einfachsatz_eur": 8.86,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1298",
+      "points": 132,
+      "description": "Spaltung von Strikturen des Tränennasenkanals",
+      "einfachsatz_eur": 7.69,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1299",
+      "points": 554,
+      "description": "Tränensackexstirpation",
+      "einfachsatz_eur": 32.29,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1300",
+      "points": 1220,
+      "description": "Tränensackoperation zur Wiederherstellung des Tränenabflusses zur Nase mit Knochenfensterung",
+      "einfachsatz_eur": 71.11,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "surgery",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1301",
+      "points": 463,
+      "description": "Exstirpation oder Verödung der Tränendrüse",
+      "einfachsatz_eur": 26.99,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1302",
+      "points": 924,
+      "description": "Plastische Korrektur der verengten oder erweiterten Lidspalte oder des Epikanthus",
+      "einfachsatz_eur": 53.86,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1303",
+      "points": 230,
+      "description": "Vorübergehende Spaltung der verengten Lidspalte",
+      "einfachsatz_eur": 13.41,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1304",
+      "points": 924,
+      "description": "Plastische Korrektur des Ektropiums oder Entropiums, der Trichiasis oder Distichiasis",
+      "einfachsatz_eur": 53.86,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "surgery",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1305",
+      "points": 739,
+      "description": "Operation der Lidsenkung (Ptosis)",
+      "einfachsatz_eur": 43.07,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1306",
+      "points": 1110,
+      "description": "Operation der Lidsenkung (Ptosis) mit direkter Lidheberverkürzung",
+      "einfachsatz_eur": 64.7,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "surgery",
+      "bilateral_qty": true
+    },
+    {
+      "code": "1310",
+      "points": 1480,
+      "description": "Augenlidplastik mittels freien Hauttransplantates",
+      "einfachsatz_eur": 86.27,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1311",
+      "points": 1110,
+      "description": "Augenlidplastik mittels Hautlappenverschiebung aus der Umgebung",
+      "einfachsatz_eur": 64.7,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "surgery",
+      "bilateral_qty": true
+    },
+    {
+      "code": "1312",
+      "points": 1850,
+      "description": "Augenlidplastik mittels Hautlappenverschiebung aus der Umgebung und freier Transplantation",
+      "einfachsatz_eur": 107.83,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1313",
+      "points": 30,
+      "description": "Abreiben, Skarifizieren oder chemische Ätzung der Bindehaut, auch beidseitig",
+      "einfachsatz_eur": 1.75,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1318",
+      "points": 74,
+      "description": "Ausrollen oder Ausquetschen der Übergangsfalte",
+      "einfachsatz_eur": 4.31,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1319",
+      "points": 1850,
+      "description": "Plastische Wiederherstellung des Bindehautsackes durch Transplantation von Lippenschleimhaut und/oder Bindehaut bei erhaltenem Augapfel - einschließlich Entnahme des Transplantates",
+      "einfachsatz_eur": 107.83,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1320",
+      "points": 52,
+      "description": "Einspritzung unter die Bindehaut",
+      "einfachsatz_eur": 3.03,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1321",
+      "points": 296,
+      "description": "Operation des Flügelfells",
+      "einfachsatz_eur": 17.25,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "surgery",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1322",
+      "points": 1660,
+      "description": "Operation des Flügelfells mit lamellierender Keratoplastik",
+      "einfachsatz_eur": 96.76,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1323",
+      "points": 67,
+      "description": "Elektrolytische Epilation von Wimpernhaaren, je Sitzung",
+      "einfachsatz_eur": 3.91,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1325",
+      "points": 230,
+      "description": "Naht einer Bindehaut- oder nicht perforierenden Hornhaut- oder nicht perforierenden Lederhautwunde",
+      "einfachsatz_eur": 13.41,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1326",
+      "points": 1110,
+      "description": "Direkte Naht einer perforierenden Hornhaut- oder Lederhautwunde - auch mit Reposition oder Abtragung der Regenbogenhaut und gegebenenfalls mit Bindehautdeckung",
+      "einfachsatz_eur": 64.7,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "surgery",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1327",
+      "points": 1850,
+      "description": "Wiederherstellungsoperation bei perforierender Hornhaut- oder Lederhautverletzung mit Versorgung von Regenbogenhaut und Linse",
+      "einfachsatz_eur": 107.83,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1328",
+      "points": 3230,
+      "description": "Wiederherstellungsoperation bei schwerverletztem Augapfel, Zerschneidung von Hornhaut und Lederhaut, Beteiligung der Iris, der Linse, des Glaskörpers und der Netzhaut",
+      "einfachsatz_eur": 188.27,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1330",
+      "points": 739,
+      "description": "Korrektur einer Schielstellung durch Eingriff an einem geraden Augenmuskel",
+      "einfachsatz_eur": 43.07,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "surgery",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1331",
+      "points": 554,
+      "description": "Korrektur einer Schielstellung durch Eingriff an jedem weiteren geraden Augenmuskel, zusätzlich zu Nummer 1330",
+      "einfachsatz_eur": 32.29,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1332",
+      "points": 1110,
+      "description": "Korrektur einer Schielstellung durch Eingriff an einem schrägen Augenmuskel",
+      "einfachsatz_eur": 64.7,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1333",
+      "points": 739,
+      "description": "Korrektur einer Schielstellung durch Eingriff an jedem weiteren schrägen Augenmuskel, zusätzlich zu Nummer 1332",
+      "einfachsatz_eur": 43.07,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1338",
+      "points": 56,
+      "description": "Chemische Ätzung der Hornhaut",
+      "einfachsatz_eur": 3.26,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1339",
+      "points": 148,
+      "description": "Abschabung der Hornhaut",
+      "einfachsatz_eur": 8.63,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1340",
+      "points": 185,
+      "description": "Thermo- oder Kryotherapie von Hornhauterkrankungen (z.B. Herpes ulcus) mit Epithelentfernung",
+      "einfachsatz_eur": 10.78,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "surgery",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1341",
+      "points": 333,
+      "description": "Tätowierung der Hornhaut",
+      "einfachsatz_eur": 19.41,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1345",
+      "points": 1660,
+      "description": "Hornhautplastik",
+      "einfachsatz_eur": 96.76,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1346",
+      "points": 2770,
+      "description": "Hornhauttransplantation",
+      "einfachsatz_eur": 161.46,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "surgery",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1347",
+      "points": 3030,
+      "description": "Einpflanzung einer optischen Kunststoffprothese in die Hornhaut (Keratoprothesis)",
+      "einfachsatz_eur": 176.61,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1348",
+      "points": 832,
+      "description": "Diszision der klaren oder getrübten Linse oder des Nachstars",
+      "einfachsatz_eur": 48.5,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1349",
+      "points": 1850,
+      "description": "Operation des weichen Stars (Saug-Spül-Vorgang) - gegebenenfalls mit Extraktion zurückgebliebener Linsenteile",
+      "einfachsatz_eur": 107.83,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1350",
+      "points": 2370,
+      "description": "Staroperation - gegebenenfalls mit Iridektomie - einschließlich Nahttechnik",
+      "einfachsatz_eur": 138.14,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1351",
+      "points": 2770,
+      "description": "Staroperation mit Iridektomie und Einpflanzung einer intraokularen Kunststofflinse",
+      "einfachsatz_eur": 161.46,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1352",
+      "points": 1800,
+      "description": "Einpflanzung einer intraokularen Linse, als selbständige Leistung",
+      "einfachsatz_eur": 104.92,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1353",
+      "points": 832,
+      "description": "Extraktion einer eingepflanzten Linse",
+      "einfachsatz_eur": 48.5,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1354",
+      "points": 2220,
+      "description": "Extraktion der luxierten Linse",
+      "einfachsatz_eur": 129.4,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1355",
+      "points": 1110,
+      "description": "Partielle oder totale Extraktion des Nachstars",
+      "einfachsatz_eur": 64.7,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "surgery",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1356",
+      "points": 370,
+      "description": "Eröffnung (Parazentese), Spülung oder Wiederherstellung der Augenvorderkammer, als selbständige Leistung",
+      "einfachsatz_eur": 21.57,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1357",
+      "points": 370,
+      "description": "Hintere Sklerotomie",
+      "einfachsatz_eur": 21.57,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1358",
+      "points": 1000,
+      "description": "Zyklodialyse, Iridektomie",
+      "einfachsatz_eur": 58.29,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1359",
+      "points": 500,
+      "description": "Zyklodiathermie-Operation oder Kryozyklothermie-Operation",
+      "einfachsatz_eur": 29.14,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1360",
+      "points": 1000,
+      "description": "Laseroperation am Trabekelwerk des Auges bei Glaukom (Lasertrabekuloplastik)",
+      "einfachsatz_eur": 58.29,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "surgery",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1361",
+      "points": 1850,
+      "description": "Fistelbildende Operation und Eingriff an den kammerwasserabführenden Wegen bei Glaukom",
+      "einfachsatz_eur": 107.83,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1362",
+      "points": 3030,
+      "description": "Kombinierte Operation des Grauen Stars und bei Glaukom",
+      "einfachsatz_eur": 176.61,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1365",
+      "points": 924,
+      "description": "Lichtkoagulation zur Verhinderung einer Netzhautablösung und/oder Netzhautblutung, je Sitzung",
+      "einfachsatz_eur": 53.86,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "surgery",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1366",
+      "points": 1110,
+      "description": "Vorbeugende Operation zur Verhinderung einer Netzhautablösung oder operativer Eingriff bei vaskulären Netzhauterkrankungen",
+      "einfachsatz_eur": 64.7,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1367",
+      "points": 2220,
+      "description": "Operation einer Netzhautablösung mit eindellenden Maßnahmen",
+      "einfachsatz_eur": 129.4,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "surgery",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1368",
+      "points": 3030,
+      "description": "Operation einer Netzhautablösung mit eindellenden Maßnahmen und Glaskörperchirurgie",
+      "einfachsatz_eur": 176.61,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1369",
+      "points": 1850,
+      "description": "Koagulation oder Lichtkaustik eines Netz- oder Aderhauttumors",
+      "einfachsatz_eur": 107.83,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1370",
+      "points": 924,
+      "description": "Operative Entfernung des Augapfels",
+      "einfachsatz_eur": 53.86,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "surgery",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1371",
+      "points": 1290,
+      "description": "Operative Entfernung des Augapfels mit Einsetzung einer Plombe",
+      "einfachsatz_eur": 75.19,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1372",
+      "points": 1850,
+      "description": "Wiederherstellung eines prothesenfähigen Bindehautsackes mittels Transplantation",
+      "einfachsatz_eur": 107.83,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1373",
+      "points": 1110,
+      "description": "Operative Ausräumung der Augenhöhle",
+      "einfachsatz_eur": 64.7,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1374",
+      "points": 3050,
+      "description": "Extrakapsuläre Operation des Grauen Stars mittels gesteuerten Saug-Spül-Verfahrens oder Linsenkernverflüssigung (Phakoemulsifikation) - gegebenenfalls einschließlich Iridektomie",
+      "einfachsatz_eur": 177.78,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1375",
+      "points": 3500,
+      "description": "Extrakapsuläre Operation des Grauen Stars mittels gesteuerten Saug-Spül-Verfahrens oder Linsenkernverflüssigung (Phakoemulsifikation) - gegebenenfalls einschließlich Iridektomie -,",
+      "einfachsatz_eur": 204.01,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "surgery",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1376",
+      "points": 1480,
+      "description": "Rekonstruktion eines abgerissenen Tränenröhrchens",
+      "einfachsatz_eur": 86.27,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1377",
+      "points": 280,
+      "description": "Entfernung einer Silikon-/Silastik-/ Rutheniumplombe",
+      "einfachsatz_eur": 16.32,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1380",
+      "points": 2000,
+      "description": "Operative Entfernung eines Iristumors",
+      "einfachsatz_eur": 116.57,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "surgery",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1381",
+      "points": 2770,
+      "description": "Operative Entfernung eines Iris-Ziliar-Aderhauttumors (Zyklektomie)",
+      "einfachsatz_eur": 161.46,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1382",
+      "points": 2500,
+      "description": "Goniotrepanation oder Trabekulektomie oder Trabekulotomie bei Glaukom",
+      "einfachsatz_eur": 145.72,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "surgery",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1383",
+      "points": 2500,
+      "description": "Vitrektomie, Glaskörperstrangdurchtrennung, als selbständige Leistung",
+      "einfachsatz_eur": 145.72,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "surgery",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1384",
+      "points": 830,
+      "description": "Vordere Vitrektomie (Glaskörperentfernung aus der Augenvorderkammer), als selbständige Leistung",
+      "einfachsatz_eur": 48.38,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    },
+    {
+      "code": "1386",
+      "points": 1290,
+      "description": "Aufnähen einer Rutheniumplombe auf die Lederhaut",
+      "einfachsatz_eur": 75.19,
+      "typical_factor": 2.3,
+      "max_factor": 3.5,
+      "phase": "exam",
+      "bilateral_qty": false
+    }
+  ],
+  "materials": [
+    {
+      "description": "OP-Set",
+      "unit_price_eur": 16.66,
+      "max_qty": 1,
+      "priced_by": "sample_invoice_not_goae"
+    },
+    {
+      "description": "Vicryl-Naht 6-0",
+      "unit_price_eur": 8.21,
+      "max_qty": 1,
+      "priced_by": "sample_invoice_not_goae"
+    },
+    {
+      "description": "Steri-Set",
+      "unit_price_eur": 38.53,
+      "max_qty": 1,
+      "priced_by": "sample_invoice_not_goae"
+    }
+  ]
+}

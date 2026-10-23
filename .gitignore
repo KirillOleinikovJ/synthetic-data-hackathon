@@ -225,3 +225,7 @@ __marimo__/
 __pycache__/
 *.pyc
 .env
+
+# Generated invoices from the latest demo run
+output/*
+!output/.gitkeep

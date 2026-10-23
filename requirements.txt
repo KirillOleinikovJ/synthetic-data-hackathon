@@ -12,6 +12,8 @@ copulas==0.14.1
 ctgan==0.12.1
 deepecho==0.8.1
 Faker==40.43.0
+fpdf2==2.8.9
+pydantic==2.14.1
 filelock==4.2.4
 fsspec==2026.9.0
 graphviz==0.21
