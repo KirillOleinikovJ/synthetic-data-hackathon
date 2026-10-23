@@ -26,6 +26,9 @@ class Patient(BaseModel):
     birth_date: date
     address: Address
     patient_number: str
+    first_name: str = ""
+    last_name: str = ""
+    academic_title: str = ""
     insurance_number: str | None = None
 
 
@@ -50,6 +53,8 @@ class LineItem(BaseModel):
     service_date: date
     code: str  # GOÄ Nr.
     description: str
+    encounter_id: str = ""
+    factor_justification: str | None = None
     quantity: Decimal = Field(gt=0)
     factor: Decimal = Field(gt=0, description="Steigerungssatz")
     einfachsatz_eur: Decimal = Field(ge=0)

@@ -1,7 +1,7 @@
 @echo off
 cd /d "%~dp0"
 echo Using venv Python (no Activate needed)...
-".venv\Scripts\python.exe" generate_invoice.py --seed 42 --count 3
+".venv\Scripts\python.exe" generate_invoice.py --mode rule-based --seed 42 --count 3
 if errorlevel 1 (
   echo.
   echo If it failed, install deps into venv:

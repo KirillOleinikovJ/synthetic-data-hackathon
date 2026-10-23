@@ -19,6 +19,10 @@ from invoice_gen.models import (
 )
 from invoice_gen.validators import validate_invoice
 
+# Older catalog sampler used by tests/test_generator.py.
+# The demo CLI and UI do not call this. Suture removal and dressings
+# are not added here; a demo scenario has to list those events itself.
+
 MONEY = Decimal("0.01")
 
 
@@ -74,14 +78,12 @@ def generate_invoice(
     payment_due = today + timedelta(days=rng.randint(10, 21))
     has_surgery = bool(diagnosis.surgery_codes)
     if has_surgery:
-        followup_end = today - timedelta(days=rng.randint(5, 12))
-        surgery_day = followup_end - timedelta(days=rng.randint(7, 14))
+        surgery_day = today - timedelta(days=rng.randint(12, 26))
         preop_day = surgery_day - timedelta(days=rng.randint(7, 14))
         consult_day = preop_day - timedelta(days=rng.randint(7, 21))
     else:
         consult_day = today - timedelta(days=rng.randint(8, 20))
-        extra_fallback = consult_day
-        surgery_day = preop_day = followup_end = consult_day
+        surgery_day = preop_day = consult_day
     extra_day = consult_day + timedelta(days=rng.randint(1, 4))
 
     line_items: list[LineItem] = []
@@ -112,10 +114,6 @@ def generate_invoice(
             if service.point_min <= surgery_points <= service.point_max:
                 line_items.append(_line(service, surgery_day, bilateral))
                 break
-    if major and "2007" in by_code:
-        line_items.append(_line(by_code["2007"], followup_end, bilateral))
-        if followup_end > surgery_day and "200" in by_code:
-            line_items.append(_line(by_code["200"], followup_end, bilateral))
 
     line_items.sort(key=lambda x: (x.service_date, x.code))
     period_start = min(item.service_date for item in line_items)

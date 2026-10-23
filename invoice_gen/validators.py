@@ -74,6 +74,8 @@ def check_date_order(invoice: Invoice) -> list[str]:
             errors.append(f"line_items[{i}].service_date after service period")
         if item.service_date > invoice.service_until:
             errors.append(f"line_items[{i}].service_date after service_until")
+        if item.service_date > invoice.issue_date:
+            errors.append(f"line_items[{i}].service_date must be on or before issue_date")
     return errors
 
 

@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+from datetime import datetime
 from decimal import Decimal, ROUND_HALF_UP
 from pathlib import Path
 
@@ -42,7 +43,8 @@ def tariff_report(catalog: ServiceCatalog) -> dict:
             }
         )
     return {
-        "metric": "goae_einfachsatz_match",
+        "metric": "catalog_einfachsatz_match",
+        "note": "Arithmetic check of catalog points against the GOÄ Anlage. Not a score for medical correctness or similarity to real invoices.",
         "source": "GOÄ Anlage, Einfachsatz = round(Punkte * 0.0582873, 2)",
         "codes_checked": checked,
         "codes_matching": matched,
@@ -85,12 +87,16 @@ def build_report(catalog_path: Path, *, n: int = 30) -> dict:
 def main() -> None:
     root = Path(__file__).resolve().parents[1]
     report = build_report(root / "data" / "service_catalog.json")
-    out = root / "output" / "goae_accuracy.json"
+    stamp = datetime.now().strftime("%Y%m%dT%H%M%S")
+    out_dir = root / "output" / f"catalog-check-{stamp}"
+    out_dir.mkdir(parents=True, exist_ok=False)
+    out = out_dir / "tariff_check.json"
     out.write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
     tariff = report["tariff"]
     rules = report["constraints"]
+    print("Catalog tariff check. This is not a quality score for synthetic cases.")
     print(
-        f"GOAE tariff match: {tariff['codes_matching']}/{tariff['codes_checked']} "
+        f"Einfachsatz matches: {tariff['codes_matching']}/{tariff['codes_checked']} "
         f"({tariff['match_rate']:.0%})"
     )
     print(
